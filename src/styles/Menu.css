@@ -1,0 +1,100 @@
+/* Menu.css */
+
+/* General Container Styling */
+.container {
+    padding-top: 10px;
+  }
+  
+  .form-control {
+    padding: 0.75rem;
+    margin-top: 80px;
+    margin-left: 30%;
+    font-size: 1.1rem;
+    border-radius: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    
+  }
+  
+  .row {
+    margin-top: 20px;
+  }
+  
+  /* Card Styling */
+  .beer-card {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+    background-color: white;
+  }
+  
+  .beer-card:hover {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transform: translateY(-10px);
+  }
+  
+  .card-img-top {
+    height: 200px;
+    object-fit: cover;
+    border-bottom: 1px solid #ddd;
+    transition: opacity 0.3s ease;
+  }
+  
+  .card-img-top[alt="Image of Founders All Day IPA"] {
+    object-position: center;
+  }
+  
+  .card-body {
+    padding: 20px;
+  }
+  
+  .card-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .beer-price {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #007bff;
+  }
+  
+  .beer-rating {
+    font-size: 0.9rem;
+    color: #555;
+  }
+  
+  button {
+    background-color: #007bff;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    color: white;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    width: 100%;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Placeholder image when the image is broken */
+  img[src="https://via.placeholder.com/300x200?text=Image+Not+Available"] {
+    object-fit: contain;
+    border: 1px solid #ddd;
+    background-color: #f2f2f2;
+  }
+  
+  /* Responsive styling */
+  @media (max-width: 768px) {
+    .beer-card {
+      margin-bottom: 20px;
+    }
+  
+    button {
+      width: auto;
+    }
+  }
+  

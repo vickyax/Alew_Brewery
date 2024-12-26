@@ -1,0 +1,104 @@
+/* //Dashboard.css */
+.dashboard-main{
+    font-size: 30px;
+    height: 100vh;
+    width: 100%;
+     background-repeat: no-repeat;
+    overflow-x: hidden;
+
+    }
+    
+    .dashboard-main p{
+
+  font-size: 20px;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  padding: 0 20px
+}
+.slide-container{
+  padding-top: 50px;
+  transition: opacity 0.5s ease-in-out;
+}
+.slide-container img {
+  transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+}
+
+.slide-container img:hover {
+  transform: scale(1.02) ; /* Optional zoom-in effect */
+}
+.logout-button{
+  background: black;
+  color: white;
+  border: 3px solid black;
+  transition: background 1s linear 0ms;
+  transition: color 500ms linear 0ms;
+  
+  width: 500px;
+  padding: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  border-radius: 30px;
+    font-weight: 600;
+    margin-top: 10px;
+    
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+    }
+    
+    
+    .logout-button:hover{
+      color: #333;
+      background-color: white;
+      }
+      
+      .Dashboard {
+        display: contents;
+        text-align: center;
+        background-repeat: no-repeat;
+        
+        }
+        
+        .Dashboard-logo {
+    display: contents;
+    height: 40vmin;
+    pointer-events: none;
+    }
+    @media (max-width: 768px) {
+      /* Example adjustments for mobile screens */
+      .dashboard-main {
+        font-size: 24px;
+        background-repeat: no-repeat;
+      }
+      .slide-container{
+        padding-top: 90px;
+      }
+     
+    }
+    .Dashboard-header {
+      display: contents;
+      background-color: #282c34;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      font-size: calc(10px + 2vmin);
+      color: white;
+      overflow-x: hidden;
+      }
+      
+      .Dashboard-link {
+    display: contents;
+    color: #61dafb;
+  }
+  .dash {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    padding: 5%; /* Adjusted padding for responsiveness */
+    overflow-x: hidden;
+    background-repeat: no-repeat;
+  }
+  
