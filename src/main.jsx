@@ -7,6 +7,7 @@ import './index.css'
 import "./responsive.css";
 
 ReactDOM.createRoot(document.getElementById('root')).render(
+  <React.StrictMode>
     <App />
-
+  </React.StrictMode>,
 )

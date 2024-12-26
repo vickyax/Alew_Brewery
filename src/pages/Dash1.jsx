@@ -7,7 +7,7 @@ import Preloader from "../components/Pre";
 import 'react-slideshow-image/dist/styles.css';
 import { Zoom } from 'react-slideshow-image';
 import Menu from "../components/Menu";
-// import Home from "../components/Home";
+import Home from "../components/Home";
 import Footer from "../components/Footer";
 import ScrollToTop from "../components/ScrollToTop";
 import { toast } from 'react-toastify';
@@ -19,8 +19,8 @@ import b from "../assets2/beer4.gif";
 import c from "../assets2/beer1.jpg";
 import d from "../assets2/beer2.jpg";
 import ee from "../assets2/beer5.jpg";
-import Dash from "./Dash1";
-const Dashboard = () => {
+
+const Dash = () => {
   
 
   const ImageSlideshow = () => {
@@ -77,7 +77,7 @@ const Dashboard = () => {
       <div className="Dashboard" id={load ? "no-scroll" : "scroll"}>
         <ScrollToTop />
         <Routes>
-          <Route path="/" element={<Dash />} />
+          <Route path="/" element={<Home />} />
           <Route path="/menu" element={<Menu />} />
           <Route path="*" element={<Navigate to="/" />} />
         </Routes>
@@ -87,4 +87,4 @@ const Dashboard = () => {
   );
 }
 
-export default Dashboard;
+export default Dash;

@@ -1,14 +1,19 @@
 
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
-import { Dashboard} from "./pages";
+import { Dashboard, HomeLayout} from "./pages";
 import Menu from "./components/Menu";
-import { ToastContainer} from 'react-toastify';
+import { ToastContainer, toast } from 'react-toastify';
 const router = createBrowserRouter([
   {
     
     path: "/",
-    element: <Dashboard />,
+    element: <HomeLayout />,
     children: [
+      {
+        index: true,
+        element: <Dashboard />,
+        },
+        
           {
             path: "menu",
             element: <Menu />,
