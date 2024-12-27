@@ -17,15 +17,11 @@ api.Implemented parallel image loading and pagination for fasted image loading a
 
 ## Technologies 🔧
 
-- Next.js(React)
-- TypeScript
-- Prisma
-- NextAuth
-- Stripe
-- Tailwind
-- React Query
-- Sentry
-- Yup
+- React
+- Javascript
+- CSS
+- Bootstrap
+- Media Query
 
 ## Screenshots 📸
 
