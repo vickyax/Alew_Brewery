@@ -51,7 +51,7 @@ If you have any issues, please let me know in the issues section or directly to 
 ## Installation 💾
 
 ```bash
-git clone https://github.com/olafsulich/fullstack-nextjs-ecommerce.git
+git clone https://github.com/vickyax/Alew_Brewery.git
 ```
 
 
