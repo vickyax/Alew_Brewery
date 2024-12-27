@@ -26,16 +26,16 @@ Fullstack Next.js E-commerce
 
 <br>
 
-<img src="scr/assets/image1.png" width="100%" />
+<img src="src/assets/image1.png" width="100%" />
 
 <br>
 
-<img src="scr/assets/image2.png" width="100%" />
+<img src="src/assets/image2.png" width="100%" />
 
 <br>
 <br>
 
-<img src="scr/assets/image3.png" width="100%" />
+<img src="src/assets/image3.png" width="100%" />
 
 <br>
 <br>
